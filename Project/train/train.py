@@ -67,7 +67,6 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
     device       - Where the model and data should be loaded (gpu or cpu).
     """
     
-    # TODO: Paste the train() method developed in the notebook here.
 def train(model, train_loader, epochs, optimizer, loss_fn, device):
     
     for epoch in range(1, epochs + 1):
